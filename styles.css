@@ -1,7 +1,19 @@
+
+:root{
+    --main-bd-color:#5F6F52;
+    --secondary: #A9B388;
+    --highlight: #FFF6DC;
+    --border: #765827;
+    --color-tittle:#12486B;
+    --color-h2: #321E1E;
+    --color-text: #E48586;
+    
+}
 @font-face {
     font-family: type;
     src: url(./fuentes/typewcond_regular.otf);
 }
+
 
 .navbar-brand{
     font-family: type;
@@ -11,8 +23,14 @@
 h2{
     font-family: type;
     font-size: 2em;
+    color: var(--color-text);
 }
 
+
 .container{
-    padding: 20px;
+    padding: 30px;
+    background-color: var(--highlight);
+
+
 }
+
