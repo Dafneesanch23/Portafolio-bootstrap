@@ -1,0 +1,18 @@
+@font-face {
+    font-family: type;
+    src: url(./fuentes/typewcond_regular.otf);
+}
+
+.navbar-brand{
+    font-family: type;
+    font-size: 3em;
+}
+
+h2{
+    font-family: type;
+    font-size: 2em;
+}
+
+.container{
+    padding: 20px;
+}
